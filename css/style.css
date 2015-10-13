@@ -1,0 +1,152 @@
+.top-bar, .contain-to-grid {
+  background: #fff;
+}
+
+.top-bar-section ul li > a {
+    color: #333;
+  }
+
+  .top-bar.expanded .toggle-topbar a {
+      color: #333;
+  }
+
+  .top-bar .toggle-topbar.menu-icon a span::after {
+        box-shadow: 0 0 0 1px #333, 0 7px 0 1px #333, 0 14px 0 1px #333;
+}
+
+  .top-bar .toggle-topbar.menu-icon a {
+      color: #333;
+    }
+
+    .top-bar-section ul li > a {
+        color: #fff;
+    }
+
+/* BEGIN TOP HERO BANNER */
+.hero {
+  background: url("img/EGP_Weddings37.jpg") no-repeat center center;
+  background-size: cover;
+  height: 100vh; }
+  .hero:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  /*  background-image: linear-gradient(to bottom right, #002f4b, #dc4225);*/
+    opacity: .8; }
+  .hero .intro {
+    padding: 3rem;
+    position: relative;
+    top: 20%;
+    transform: translateY(-50%); }
+  .hero h1 {
+    color: #fff;
+    font-size: 1.5rem;
+    line-height: 1.5em;
+    letter-spacing: -0.025em;
+    font-weight: 300;
+    text-align: center; }
+  .hero p {
+    color: #fff;
+    line-height: 1.75em;
+    font-weight: 200;
+    text-align: center;
+    margin-bottom: 2rem; }
+  .hero .tech-img {
+    background: url("img/EGP_Weddings37.jpg") no-repeat center center;
+    background-size: cover;
+    height: 9rem;
+    width: 9rem;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto; }
+  @media only screen and (min-width: 40.063em) {
+    .hero .tech-img {
+      height: 18rem;
+      width: 18rem; }
+    .hero h1 {
+      padding-top: 4.5rem;
+      text-align: right;
+      font-size: 2.5rem; }
+    .hero p {
+      text-align: right; } }
+
+
+/*
+.herobanner {
+  background-image: url('img/EGP_Weddings37.jpg');
+  background-repeat:  no-repeat;
+  background-position: left;
+  background-size: cover;
+  width: 100%
+}
+
+.herobanner h1 {
+  color: #fff;
+}
+*/
+/* END TOP HERO BANNER */
+
+@media only screen and (min-width: 639px) {
+  .top-bar-section ul li > a {
+    color: #333;
+}
+}
+
+@media only screen and (min-width: 40em) {
+  .top-bar {
+    text-align: center; }
+
+  ul.center-buttons {
+    display: inline-block; }
+
+  .logo {
+    left: 5px;
+    top: -2px;
+    position: absolute; } }
+
+
+.menu-icon {
+  padding-top: 1.2rem; }
+
+.top-bar.expanded {
+  background: #fff; }
+
+.logo {
+  margin-top: 1.0rem;
+  max-width: 206px;
+  height: auto;
+}
+
+/* DESKTOP */
+@media only screen and (min-width: 40.0625em) {
+.top-bar {
+      height: 6.8125rem;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+    background: #fff;
+    line-height: 6.8125rem;
+}
+
+/* top bar divider */
+.top-bar-section > ul > .divider {
+  line-height: 6.8125rem;
+  height: .8125rem;
+  margin-top: 3em;
+  border-right: solid 1px #C2C2C2;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+    background-color: #fff;
+    background: #fff;
+}
+
+.top-bar-section ul li:hover:not(.has-form) > a {
+    background-color: #555555;
+    color: #C2C2C2;
+}
+}
+/* END DESKTOP */
