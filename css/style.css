@@ -135,7 +135,7 @@
   transform: translateY(-50%);
 }
 
-.services h1 {
+.services h1, .services-container h1 {
   color: #fff;
   font-size: 1.5rem;
   line-height: 1.5em;
@@ -168,11 +168,17 @@
     width: 18rem;
   }
 
-  .services h1 {
+  .services h1, {
     padding-top: 4.5rem;
     text-align: right;
     font-size: 2.5rem;
   }
+
+  .services-container h1 {
+  padding-top: 2.5rem;
+  text-align: right;
+  font-size: 2.5rem;
+}
 
   .services p {
     text-align: right;
@@ -355,6 +361,102 @@
 }
 
 /* END SLIDER */
+
+
+/* BEGIN scallops */
+.scallops {
+  position: relative;
+  background: url("img/scallops.jpg") no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.scallops:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  /*  background-image: linear-gradient(to bottom right, #002f4b, #dc4225);*/
+  opacity: .8;
+}
+
+.scallops .intro {
+  padding: 3rem;
+  position: relative;
+  top: 20%;
+  transform: translateY(-50%);
+}
+
+.scallops h1 {
+  color: #fff;
+  font-size: 1.5rem;
+  line-height: 1.5em;
+  letter-spacing: -0.025em;
+  font-weight: 300;
+  text-align: center;
+}
+
+.scallops p {
+  color: #fff;
+  line-height: 1.75em;
+  font-weight: 200;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.scallops .tech-img {
+  background: url("img/scallops.jpg") no-repeat center center;
+  background-size: cover;
+  height: 9rem;
+  width: 9rem;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 40.063em) {
+  .scallops .tech-img {
+    height: 18rem;
+    width: 18rem;
+  }
+
+  .scallops h1 {
+    padding-top: 4.5rem;
+    text-align: right;
+    font-size: 2.5rem;
+  }
+
+  .scallops p {
+    text-align: right;
+  }
+}
+
+.scallops-container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* END scallops */
+
+/*BLACK DIVIDER*/
+.black-divider  {
+  background-color: #000;
+  height: 150px;
+}
+/*BLACK DIVIDER*/
+
+/*FOOTER*/
+.footer  {
+  background-color: #000;
+  height: 200px;
+}
+/*FOOTER*/
+
+
+
 
 @media only screen and (min-width: 639px) {
   .top-bar-section ul li > a {
