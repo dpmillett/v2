@@ -482,7 +482,7 @@ h1 {
 /*FOOTER*/
 .footer  {
   background-color: #000;
-  height: 200px;
+  min-height: 450px;
 }
 /*FOOTER*/
 
