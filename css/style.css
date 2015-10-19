@@ -60,6 +60,7 @@ h1, h2, h3, h4, h5, h6, p, ol, ul {
 
 .hero .intro {
   position: relative;
+  padding: 0 40px;
 }
 
 .hero h1 {
