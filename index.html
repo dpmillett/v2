@@ -3,10 +3,11 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Foundation | Welcome</title>
+    <title>Rita's Wedding Site | Welcome</title>
     <!-- DNS Prefetch -->
     <meta name="dns-prefetch" content="//maxcdn.bootstrapcdn.com">
     <!-- END DNS Prefetch -->
+
     <!-- Site styles -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/foundation.min.css" />
@@ -15,8 +16,11 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/slick.css"/>
     <link rel="stylesheet" href="css/slick-theme.css"/>
+    
     <!-- End site styles -->
+    <!-- 
     <script src="/js/vendor/modernizr.js"></script>
+   -->
   </head>
   <body>
     <div class="contain-to-grid">
@@ -269,29 +273,27 @@
     </div>
   </div>
   <!--END FOOTER-->
+  <!-- 
   <script>
   document.write('<script src=js/vendor/' +
   ('__proto__' in {} ? 'zepto' : 'jquery') +
   '.js><\/script>')
   </script>
-  <script src="js/vendor/jquery.js"></script>
-  <script src="js/foundation.min.js"></script>
-  <!--<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-  <script type="text/javascript" src="js/slick.min.js"></script>
+   -->
+  <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   <script type="text/javascript">
-  $(document).ready(function(){
-  $('.single-item').slick();
-  });
-  </script>-->
-  <script>
-  $(document).foundation();
+    if (typeof jQuery == "undefined") {
+        document.write(unescape("%3Cscript src='/js/vendor/jquery.js' type='text/javascript'%3E%3C/script%3E"));
+    }
   </script>
-  <!--<script src="js/vendor/jquery.js"></script>
-  <script src="js/foundation/foundation.js"></script>-->
+
+  <script src="js/foundation.min.js"></script>
+
   <script>
-  $(document).foundation();
-  var doc = document.documentElement;
-  doc.setAttribute('data-useragent', navigator.userAgent);
+    $(document).foundation();
+    var doc = document.documentElement;
+    doc.setAttribute('data-useragent', navigator.userAgent);
   </script>
 </body>
 </html>
