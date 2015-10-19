@@ -129,12 +129,21 @@ h1, h2, h3, h4, h5, h6, p, ol, ul {
 /* BEGIN SERVICES */
 .services {
   position: relative;
-  background: url("../img/services.jpg") no-repeat center center;
-  background-size: cover;
-  height: 100%;
-  height: 100vh;
+  z-index: 12;
 }
 
+.services-inner {
+  background: url("../img/services-bg.png") no-repeat center center;
+}
+
+@media screen and (min-width: 40em) {
+  .services-inner {
+    min-height: 749px;
+    background-size: cover;
+  }
+}
+
+/*
 .services:before {
   content: '';
   position: absolute;
@@ -145,7 +154,7 @@ h1, h2, h3, h4, h5, h6, p, ol, ul {
 
   /*  background-image: linear-gradient(to bottom right, #002f4b, #dc4225);*/
   opacity: .8;
-}
+}*/
 
 .services .intro {
   padding: 3rem;
@@ -215,10 +224,19 @@ h1, h2, h3, h4, h5, h6, p, ol, ul {
 /* BEGIN VENUES */
 .venues {
   position: relative;
+  margin-top: -48px;
+  z-index: 11;
+}
+
+.venues-inner {
   background: url("../img/venues.jpg") no-repeat center center;
   background-size: cover;
-  height: 100%;
-  height: 100vh;
+}
+
+@media screen and (min-width: 40em) {
+  .venues-inner {
+    min-height: 668px;
+  }
 }
 
 .venues:before {
