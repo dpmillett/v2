@@ -17,9 +17,6 @@ ul {
 .u-color-teal {
   color: #76eebf;
 }
-.top-bar {
-  height: 81px;
-}
 
 .top-bar, .contain-to-grid {
   background: #fff;
@@ -343,30 +340,33 @@ ul {
   ul.center-buttons {
     display: inline-block;
   }
-
-  .logo {
-    left: 5px;
-    top: -2px;
-    position: absolute;
-  }
 }
 
-.menu-icon {
-  padding-top: 1.2rem;
-}
-
-.top-bar.expanded {
+.top-bar.expanded .title-area {
   background: #fff;
 }
 
 .logo {
-  margin-top: 1.0rem;
-  max-width: 206px;
-  height: auto;
+  display: block;
+  width: auto;
+  height: 35px;
+}
+
+.title-area .name {
+  padding: 5px 0 5px 15px;
 }
 
 /* DESKTOP */
 @media only screen and (min-width: 40.0625em) {
+  .title-area .name {
+    padding: 20px 0 0;
+  }
+
+  .logo {
+    max-width: 206px;
+    height: auto;
+  }
+
   .top-bar {
     height: auto;
   }
