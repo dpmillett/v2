@@ -2,6 +2,12 @@
  * @file
  * Main site styles
  */
+/* Mini Reset */
+h1,h2,h3,h4,h5,h6,p,ol,ul {
+  margin-top: 0;
+  margin-bottom: 12px;
+}    
+
 .top-bar, .contain-to-grid {
   background: #fff;
 }
@@ -48,11 +54,7 @@
 }
 
 .hero .intro {
-  padding: 3rem;
   position: relative;
-  top: 20%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
 }
 
 .hero h1 {
@@ -62,6 +64,10 @@
   letter-spacing: -0.025em;
   font-weight: 300;
   text-align: center;
+}
+
+.hero .page-title {
+  font-size: 62px;
 }
 
 .hero p {
