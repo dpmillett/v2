@@ -298,6 +298,10 @@ ul {
   text-align: center;
 }
 
+.sample-menu h4 {
+  font-family: "tstarmedium", Helvetica, sans-serif;
+}
+
 /*BLACK DIVIDER*/
 .black-divider {
   background-color: #000;
