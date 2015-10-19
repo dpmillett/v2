@@ -122,14 +122,15 @@ ul {
 }
 
 .services-inner {
-  background: url("../img/services-bg.png") no-repeat center center;
-  padding-bottom: 48px;
-  background-size: auto 100%;
+  background-color: #000;
 }
 
 @media screen and (min-width: 40em) {
   .services-inner {
     min-height: 749px;
+    padding-bottom: 48px;
+    background: url("../img/services-bg.png") no-repeat center center;
+    background-size: auto 100%;
   }
 }
 
