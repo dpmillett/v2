@@ -48,6 +48,7 @@ ul {
 /* BEGIN TOP HERO BANNER */
 .hero {
   position: relative;
+  padding: 30px 0;
   background-image: url("../img/EGP_Weddings37.jpg");
   background-repeat: no-repeat;
   background-position: center top;
@@ -58,46 +59,24 @@ ul {
   .hero {
     min-height: 780px;
     min-height: calc(100vh - 125px);
+    padding-top: 50px;
   }
 }
 
 .hero .intro {
-  position: relative;
-  padding: 0 40px;
+  padding: 0 20px;
 }
 
-.hero h1 {
-  color: #fff;
-  font-size: 1.5rem;
-  line-height: 1.5em;
-  letter-spacing: -0.025em;
-  font-weight: 300;
-  text-align: center;
+@media screen and (min-width: 40em) {
+  .hero .intro {
+    position: relative;
+    padding: 0 40px;
+  }
 }
 
 .hero .page-title {
   margin-bottom: 0;
-  font-size: 62px;
-}
-
-.hero p {
   color: #fff;
-  line-height: 1.75em;
-  font-weight: 200;
-  text-align: center;
-  margin-bottom: 2rem;
-}
-
-@media only screen and (min-width: 40.063em) {
-  .hero h1 {
-    padding-top: 4.5rem;
-    text-align: right;
-    font-size: 2.5rem;
-  }
-
-  .hero p {
-    text-align: right;
-  }
 }
 
 /*
@@ -122,13 +101,14 @@ ul {
 }
 
 .services-inner {
+  padding: 30px 0;
   background-color: #000;
 }
 
 @media screen and (min-width: 40em) {
   .services-inner {
     min-height: 749px;
-    padding-bottom: 48px;
+    padding: 60px 0 108px;
     background: url("../img/services-bg.png") no-repeat center center;
     background-size: auto 100%;
   }
@@ -157,14 +137,12 @@ ul {
   line-height: 1.5em;
   letter-spacing: -0.025em;
   font-weight: 300;
-  text-align: center;
 }
 
 .services p {
   color: #fff;
   line-height: 1.75em;
   font-weight: 200;
-  text-align: center;
   margin-bottom: 2rem;
 }
 
@@ -183,27 +161,17 @@ ul {
     height: 18rem;
     width: 18rem;
   }
-
-  .services h1 {
-    padding-top: 4.5rem;
-    text-align: right;
-    font-size: 2.5rem;
-  }
-
-  .services-container h1 {
-    padding-top: 2.5rem;
-    text-align: right;
-    font-size: 2.5rem;
-  }
-
-  .services p {
-    text-align: right;
-  }
 }
 
 .services-container {
-  width: 70%;
+  width: 90%;
   margin: 0 auto;
+}
+
+@media screen and (min-width: 40em) {
+  .services-container {
+    width: 70%;
+  }
 }
 
 /* END SERVICES */
@@ -211,51 +179,31 @@ ul {
 /* BEGIN VENUES */
 .venues {
   position: relative;
-  margin-top: -48px;
   z-index: 11;
 }
 
 .venues-inner {
+  padding: 30px 0;
   background: url("../img/venues.jpg") no-repeat center center;
   background-size: cover;
 }
 
 @media screen and (min-width: 40em) {
+  .venues {
+    margin-top: -48px;
+  }
+
   .venues-inner {
     min-height: 668px;
+    padding: 60px 0;
   }
-}
-
-.venues h1 {
-  color: #fff;
-  font-size: 1.5rem;
-  line-height: 1.5em;
-  letter-spacing: -0.025em;
-  font-weight: 300;
-  text-align: center;
 }
 
 .venues p {
-  color: #fff;
   line-height: 1.75em;
   font-weight: 200;
-  text-align: center;
   margin-bottom: 2rem;
 }
-
-
-@media only screen and (min-width: 40.063em) {
-  .venues h1 {
-    padding-top: 4.5rem;
-    text-align: right;
-    font-size: 2.5rem;
-  }
-
-  .venues p {
-    text-align: right;
-  }
-}
-
 /* END VENUES */
 
 /* BEGIN VENUELINKS */

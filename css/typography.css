@@ -9,4 +9,11 @@ body {
 
 h1 {
   font-family: 'lavanderia_regular', serif;
+  font-size: 30px;
+}
+
+@media screen and (min-width: 40em) {
+  h1 {
+    font-size: 60px;
+  }
 }
