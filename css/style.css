@@ -6,7 +6,7 @@
 h1,h2,h3,h4,h5,h6,p,ol,ul {
   margin-top: 0;
   margin-bottom: 12px;
-}    
+}
 
 .top-bar, .contain-to-grid {
   background: #fff;
@@ -377,6 +377,19 @@ h1,h2,h3,h4,h5,h6,p,ol,ul {
 
 #slide2 {
   background-image: url("../img/venuelinks2.jpg");
+}
+
+/* END LINKS SLIDER */
+
+/* END VENUELINKS */
+
+/* GALLERY SLIDER */
+#slide5 {
+  background-image: url("../img/gallery-img1.jpg");
+}
+
+#slide6 {
+  background-image: url("../img/gallery-img2.jpg");
 }
 
 /* END LINKS SLIDER */
