@@ -57,7 +57,7 @@
 /*END FONTS*/
 
 h1 {
-  font-family: 'lavanderia_regularregular';
+  font-family: 'lavanderia_regularregular', serif;
 }
 
 .top-bar, .contain-to-grid {
@@ -108,7 +108,8 @@ h1 {
   padding: 3rem;
   position: relative;
   top: 20%;
-  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 
 .hero h1 {
@@ -194,7 +195,8 @@ h1 {
   padding: 3rem;
   position: relative;
   top: 20%;
-  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 
 .services h1, .services-container h1 {
@@ -278,7 +280,8 @@ h1 {
   padding: 3rem;
   position: relative;
   top: 20%;
-  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 
 .venues h1 {
@@ -355,7 +358,8 @@ h1 {
   padding: 3rem;
   position: relative;
   top: 20%;
-  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 
 .venuelinks h1 {
@@ -449,7 +453,8 @@ h1 {
   padding: 3rem;
   position: relative;
   top: 20%;
-  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 
 .scallops h1 {
