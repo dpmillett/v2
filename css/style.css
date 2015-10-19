@@ -521,8 +521,12 @@ h1, h2, h3, h4, h5, h6, p, ol, ul {
   color: #fff;
 }
 
+.footer h1 {
+  margin-bottom: 30px;
+}
+
 .footer p {
-  margin-bottom: 85px;
+  margin-bottom: 70px;
   font-size: 30px;
   text-transform: uppercase;
 }
