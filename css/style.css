@@ -37,8 +37,6 @@ h1,h2,h3,h4,h5,h6,p,ol,ul {
   position: relative;
   background: url("../img/EGP_Weddings37.jpg") no-repeat center center;
   background-size: cover;
-  height: 100%;
-  height: 100vh;
 }
 
 .hero:before {
@@ -51,6 +49,13 @@ h1,h2,h3,h4,h5,h6,p,ol,ul {
 
   /*  background-image: linear-gradient(to bottom right, #002f4b, #dc4225);*/
   opacity: .8;
+}
+
+@media screen and (min-width: 40em) {
+  .hero {
+    min-height: 780px;
+    min-height: calc(100vh - 125px);
+  }
 }
 
 .hero .intro {
@@ -513,7 +518,7 @@ h1,h2,h3,h4,h5,h6,p,ol,ul {
 /* DESKTOP */
 @media only screen and (min-width: 40.0625em) {
   .top-bar {
-    height: 6.8125rem;
+    height: auto;
   }
 
   .top-bar-section li:not(.has-form) a:not(.button) {
