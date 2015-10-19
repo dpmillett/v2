@@ -17,6 +17,9 @@ ul {
 .u-color-teal {
   color: #76eebf;
 }
+.top-bar {
+  height: 81px;
+}
 
 .top-bar, .contain-to-grid {
   background: #fff;
@@ -45,20 +48,10 @@ ul {
 /* BEGIN TOP HERO BANNER */
 .hero {
   position: relative;
-  background: url("../img/EGP_Weddings37.jpg") no-repeat center center;
+  background-image: url("../img/EGP_Weddings37.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
   background-size: cover;
-}
-
-.hero:before {
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-
-  /*  background-image: linear-gradient(to bottom right, #002f4b, #dc4225);*/
-  opacity: .8;
 }
 
 @media screen and (min-width: 40em) {
@@ -83,6 +76,7 @@ ul {
 }
 
 .hero .page-title {
+  margin-bottom: 0;
   font-size: 62px;
 }
 
@@ -94,22 +88,7 @@ ul {
   margin-bottom: 2rem;
 }
 
-.hero .tech-img {
-  background: url("../img/EGP_Weddings37.jpg") no-repeat center center;
-  background-size: cover;
-  height: 9rem;
-  width: 9rem;
-  border-radius: 50%;
-  display: block;
-  margin: 0 auto;
-}
-
 @media only screen and (min-width: 40.063em) {
-  .hero .tech-img {
-    height: 18rem;
-    width: 18rem;
-  }
-
   .hero h1 {
     padding-top: 4.5rem;
     text-align: right;
@@ -144,12 +123,13 @@ ul {
 
 .services-inner {
   background: url("../img/services-bg.png") no-repeat center center;
+  padding-bottom: 48px;
+  background-size: auto 100%;
 }
 
 @media screen and (min-width: 40em) {
   .services-inner {
     min-height: 749px;
-    background-size: cover;
   }
 }
 
@@ -167,11 +147,7 @@ ul {
 }*/
 
 .services .intro {
-  padding: 3rem;
   position: relative;
-  top: 20%;
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
 }
 
 .services h1, .services-container h1 {
@@ -421,9 +397,14 @@ ul {
 }
 
 .footer p {
-  margin-bottom: 70px;
-  font-size: 30px;
+  margin-bottom: 30px;
   text-transform: uppercase;
+}
+
+@media scren and (min-width: 40em) {
+  .footer p {
+    font-size: 30px;
+  }
 }
 
 /*FOOTER*/
