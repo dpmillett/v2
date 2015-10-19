@@ -8,6 +8,11 @@ h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin-bottom: 12px;
 }
 
+ul {
+  margin: 0;
+  list-style: none;
+}
+
 /* Utilities */
 .u-color-teal {
   color: #76eebf;
@@ -316,52 +321,48 @@ h1, h2, h3, h4, h5, h6, p, ol, ul {
 /* END VENUES */
 
 /* BEGIN VENUELINKS */
-.venuelinks {
-  background: url("../img/venuelinks.jpg") no-repeat center center;
-  background-size: cover;
-  height: 100%;
-  height: 100vh;
+.venuelinks-inner {
+  /*background: url("../img/venuelinks.jpg") no-repeat center center;*/
+  /*background-size: cover;*/
+  padding: 90px 10%;
+  background-color: #020000;
 }
 
-.venuelinks:before {
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-
-  /*  background-image: linear-gradient(to bottom right, #002f4b, #dc4225);*/
-  opacity: .8;
+.venuelinks li {
+  line-height: 2.5;
 }
 
 .venuelinks .intro {
-  padding: 3rem;
   position: relative;
-  top: 20%;
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
 }
 
-.venuelinks h1 {
+.venuelinks h2 {
+  margin-bottom: 100px;
   color: #fff;
+  font-family: "tstarmedium", Helvetica, sans-serif;
   font-size: 1.5rem;
-  line-height: 1.5em;
-  letter-spacing: -0.025em;
   font-weight: 300;
+  letter-spacing: -0.025em;
+  line-height: 1.5em;
   text-align: center;
+  text-transform: uppercase;
+}
+
+.venuelinks a {
+  color: #76eebf;
+  font-size: 30px;
+  text-transform: uppercase;;
 }
 
 .venuelinks p {
   color: #fff;
   line-height: 1.75em;
   font-weight: 200;
-  text-align: center;
   margin-bottom: 2rem;
 }
 
 .venuelinks .tech-img {
-  background: url("../img/venuelinks.jpg") no-repeat center center;
+  /*background: url("../img/venuelinks.jpg") no-repeat center center;*/
   background-size: cover;
   height: 9rem;
   width: 9rem;
@@ -380,10 +381,6 @@ h1, h2, h3, h4, h5, h6, p, ol, ul {
     padding-top: 4.5rem;
     text-align: right;
     font-size: 2.5rem;
-  }
-
-  .venuelinks p {
-    text-align: right;
   }
 }
 
