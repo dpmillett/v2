@@ -3,7 +3,7 @@
  * Main site styles
  */
 /* Mini Reset */
-h1,h2,h3,h4,h5,h6,p,ol,ul {
+h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin-top: 0;
   margin-bottom: 12px;
 }
@@ -151,7 +151,7 @@ h1,h2,h3,h4,h5,h6,p,ol,ul {
   position: relative;
   top: 20%;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .services h1, .services-container h1 {
@@ -187,17 +187,17 @@ h1,h2,h3,h4,h5,h6,p,ol,ul {
     width: 18rem;
   }
 
-  .services h1, {
+  .services h1 {
     padding-top: 4.5rem;
     text-align: right;
     font-size: 2.5rem;
   }
 
   .services-container h1 {
-  padding-top: 2.5rem;
-  text-align: right;
-  font-size: 2.5rem;
-}
+    padding-top: 2.5rem;
+    text-align: right;
+    font-size: 2.5rem;
+  }
 
   .services p {
     text-align: right;
@@ -237,7 +237,7 @@ h1,h2,h3,h4,h5,h6,p,ol,ul {
   position: relative;
   top: 20%;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .venues h1 {
@@ -316,7 +316,7 @@ h1,h2,h3,h4,h5,h6,p,ol,ul {
   position: relative;
   top: 20%;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .venuelinks h1 {
@@ -371,11 +371,11 @@ h1,h2,h3,h4,h5,h6,p,ol,ul {
 /* END VENUELINKS */
 
 /* LINKS SLIDER */
-#slide1 {
+.slide-1 {
   background-image: url("../img/venuelinks1.jpg");
 }
 
-#slide2 {
+.slide-2 {
   background-image: url("../img/venuelinks2.jpg");
 }
 
@@ -384,16 +384,15 @@ h1,h2,h3,h4,h5,h6,p,ol,ul {
 /* END VENUELINKS */
 
 /* GALLERY SLIDER */
-#slide5 {
+.slide-5 {
   background-image: url("../img/gallery-img1.jpg");
 }
 
-#slide6 {
+.slide-6 {
   background-image: url("../img/gallery-img2.jpg");
 }
 
 /* END LINKS SLIDER */
-
 
 /* BEGIN scallops */
 .scallops {
@@ -421,7 +420,7 @@ h1,h2,h3,h4,h5,h6,p,ol,ul {
   position: relative;
   top: 20%;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .scallops h1 {
@@ -476,21 +475,20 @@ h1,h2,h3,h4,h5,h6,p,ol,ul {
 /* END scallops */
 
 /*BLACK DIVIDER*/
-.black-divider  {
+.black-divider {
   background-color: #000;
   height: 150px;
 }
+
 /*BLACK DIVIDER*/
 
 /*FOOTER*/
-.footer  {
+.footer {
   background-color: #000;
   min-height: 450px;
 }
+
 /*FOOTER*/
-
-
-
 
 @media only screen and (min-width: 639px) {
   .top-bar-section ul li > a {
