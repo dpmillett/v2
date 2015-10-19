@@ -262,6 +262,10 @@ ul {
 .orbit-container .orbit-timer {
   display: none;
 }
+
+.orbit-container .orbit-next, .orbit-container .orbit-prev {
+  background-color: rgba(0, 0, 0, 0.2);
+}
 /* END VENUELINKS */
 /* BEGIN MENU SLIDER */
 
