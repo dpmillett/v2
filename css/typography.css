@@ -2,6 +2,10 @@
  * Base typography stlyes
  */
 
+body {
+  font-family: 'tstarregular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
 h1 {
   font-family: 'lavanderia_regular', serif;
 }

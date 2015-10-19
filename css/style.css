@@ -8,6 +8,11 @@ h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin-bottom: 12px;
 }
 
+/* Utilities */
+.u-color-teal {
+  color: #76eebf;
+}
+
 .top-bar, .contain-to-grid {
   background: #fff;
 }
@@ -504,7 +509,22 @@ h1, h2, h3, h4, h5, h6, p, ol, ul {
 /*FOOTER*/
 .footer {
   background-color: #000;
+  padding-top: 50px;
+  padding-left: 17%;
+  padding-right: 5%;
   min-height: 450px;
+  line-height: 2;
+}
+
+.footer,
+.footer h1 {
+  color: #fff;
+}
+
+.footer p {
+  margin-bottom: 85px;
+  font-size: 30px;
+  text-transform: uppercase;
 }
 
 /*FOOTER*/
