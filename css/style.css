@@ -420,3 +420,11 @@ ul {
 .blacktext {
   color: #000 !important;
 }
+
+.hero .orbit-bullets {
+  display: none;
+}
+
+.hero .orbit-prev, .hero .orbit-next {
+  margin-top: 50px;
+}
